@@ -15,8 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28767953'))
 API_HASH = environ.get('API_HASH', 'ecaf6cbd18b6e245b9972968d271b6af')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7212309342:AAFiCloiZ4sypoB4qvvE3v9-1tM6RDlVD5w
-')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7212309342:AAFiCloiZ4sypoB4qvvE3v9-1tM6RDlVD5w')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7611679315').split()]
@@ -27,7 +26,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nurakkash:nurakkash@nurakkash.pjtuw.mongodb.net/?retryWrites=true&w=majority&appName=nurakkash")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_NAME = environ.get('DATABASE_NAME', "nurakkash")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
